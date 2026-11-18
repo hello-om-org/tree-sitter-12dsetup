@@ -1,0 +1,9 @@
+{
+  "name": "tree-sitter-12dsetup",
+  "version": "0.0.1",
+  "description": "tree-sitter grammar for 12d Model setup files (toolbars.4d, fonts.4d, textstyl.4d and the like)",
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "0.25.10"
+  }
+}

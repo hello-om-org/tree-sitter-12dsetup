@@ -1,0 +1,32 @@
+// A sample in the shapes 12d setup files use.
+#include_silent "user_toolbars.4d"
+
+Toolbar "Quick Access" {
+  Button "New Project" {
+    Command "12d Model Open Create"
+    Icon "Project_New.bmp"
+  }
+  Button "Area"  { Command "Cad Drafting - Create Area"   Icon "Cad Area.bmp" }
+}
+
+paperstyle "DRAINAGE"
+{
+  length 1.0
+}
+
+font "Arial" {
+  stroke_file "TXT.SHX"
+  proportional
+}
+
+default_colour 0 0 0 // Black
+default_weight 0.250
+
+pen_mapping {
+  /* colour_num   pen_num   pen_weight */
+  1 401 0.13  // black
+  2 402 0.18
+}
+
+30 155 0 9 "dark_green" 9 -9006 "12d" // dark_green
+"A4 LASER"   287   185

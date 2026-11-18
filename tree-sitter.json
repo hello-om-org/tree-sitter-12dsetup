@@ -1,0 +1,23 @@
+{
+  "grammars": [
+    {
+      "name": "om_12dsetup",
+      "camelcase": "Om12dsetup",
+      "scope": "source.om_12dsetup",
+      "path": ".",
+      "file-types": [
+        "4d"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "tree-sitter grammar for 12d Model setup files",
+    "authors": [
+      {
+        "name": "The Opinionated Modeller"
+      }
+    ]
+  }
+}
